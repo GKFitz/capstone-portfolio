@@ -37,7 +37,7 @@ a {
 }
 
 header {
-  min-height: 100vh;
+  height: 100vh;
   color: var(--color-white);
   overflow: hidden;
   padding: 0 !important;
@@ -58,34 +58,56 @@ section {
   background-color: var(--color-primary);
 }
 
+img {
+  height: 100 vh;
+  width: 100%;
+}
+
 .sec1 {
   display: none;
   transform: translatorY(0) scale(1);
-  background-color: purple;
 }
 
 .sec2 {
   display: none;
   transform: translatorY(0) scale(1);
-  background-color: cyan;
 }
 
 .sec3 {
   display: none;
   transform: translatorY(0) scale(1);
-  background-color: greenyellow;
 }
 
 .sec4 {
   display: none;
   transform: translatorY(0) scale(1);
-  background-color: mediumblue;
 }
 
 .sec5 {
   display: none;
   transform: translatorY(0) scale(1);
-  background-color: mediumvioletred;
+}
+
+.active {
+  display: block;
+  -webkit-animation: scaleAnim 1s ease-in-out;
+          animation: scaleAnim 1s ease-in-out;
+}
+@-webkit-keyframes scaleAnim {
+  0% {
+    transform: translateY(-100%) scaleY(0);
+  }
+  100% {
+    transform: translateY(0) scaleY(1);
+  }
+}
+@keyframes scaleAnim {
+  0% {
+    transform: translateY(-100%) scaleY(0);
+  }
+  100% {
+    transform: translateY(0) scaleY(1);
+  }
 }
 
 .controls {
@@ -102,6 +124,9 @@ section {
 .controls .active-btn {
   background-color: var(--color-secondary) !important;
   transition: all 0.4s ease-in-out;
+}
+.controls .active-btn i {
+  color: var(--color-white) !important;
 }
 .controls .control {
   padding: 1rem;

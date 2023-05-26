@@ -39,7 +39,7 @@ a {
 }
 
 header {
-    min-height: 100vh;
+    height: 100vh;
     color: var(--color-white);
     overflow: hidden;
     padding: 0 !important;
@@ -60,37 +60,55 @@ section {
     background-color: var(--color-primary);
 }
 
+img{
+    height: 100 vh;
+    width: 100%;
+}
+
 .sec1 {
     display: none;
     transform: translatorY(0) scale(1);
-    background-color: purple;
+    // background-color: purple;
 
 }
 
 .sec2 {
     display: none;
     transform: translatorY(0) scale(1);
-    background-color: cyan;
+    // background-color: cyan;
 }
 .sec3 {
     display: none;
     transform: translatorY(0) scale(1);
-    background-color: greenyellow
+    // background-color: greenyellow
     
 }
 
 .sec4 {
     display: none;
     transform: translatorY(0) scale(1);
-    background-color: mediumblue;
+    // background-color: mediumblue;
     
 }
 
 .sec5 {
     display: none;
     transform: translatorY(0) scale(1);
-    background-color: mediumvioletred;
+    // background-color: mediumvioletred;
     
+}
+
+.active{
+    display: block;
+    animation: scaleAnim 1s ease-in-out;
+    @keyframes scaleAnim {
+        0%{
+            transform: translateY(-100%) scaleY(0)
+        }
+        100%{
+            transform: translateY(0) scaleY(1)
+        }
+    }
 }
 
 .controls {
