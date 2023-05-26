@@ -118,23 +118,23 @@ section {
         display: flex;
         align-items: center;
         position: relative;
-        .h-shape {
-            transition: all .4s ease-in-out;
-            width: 65%;
-            height: 100%;
-            background-color: var(--color-secondary);
-            position: absolute;
-            left: 0;
-            top: 0;
-            z-index: -1;
-            clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
-        }
+        // .h-shape {
+        //     transition: all .4s ease-in-out;
+        //     width: 65%;
+        //     height: 100%;
+        //     background-color: var(--color-secondary);
+        //     position: absolute;
+        //     left: 0;
+        //     top: 0;
+        //     z-index: -1;
+        //     clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+        // }
         .image {
-            border-radius: var(--br-sm-2);
+            // border-radius: var(--br-sm-2);
             height: 90%;
             width: 68%;
             margin-left: 4rem;
-            background-color: var(--color-black);
+            background-color: var(--color-);
             transition: all .4s ease-in-out;
             img {
                 width: 100%;
