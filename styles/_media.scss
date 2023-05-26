@@ -4,16 +4,7 @@
     //     padding: 0;
     // }
 }
-// .header-content{
-//     grid-template-columns: repeat(1, 1fr);
-//     padding-bottom: 6rem;
-// }
 
-// .left-header{
-//     .h-shape{
-//         display: none;
-//     }
-// }
 .right-header{
     grid-row: 1;
     padding-right: 0rem !important;
@@ -44,4 +35,8 @@
 //     }
 // }
 
-
+.portfolios{
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 6rem;
+    margin-top: 1rem;
+}

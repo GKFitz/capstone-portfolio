@@ -328,4 +328,10 @@ section {
 .header-content .left-header .image {
   margin: 0 auto;
   width: 90%;
+}
+
+.portfolios {
+  grid-template-columns: repeat(1, 1fr);
+  padding-bottom: 6rem;
+  margin-top: 1rem;
 }/*# sourceMappingURL=styles.css.map */
