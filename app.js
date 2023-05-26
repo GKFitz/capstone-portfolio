@@ -17,19 +17,19 @@ function PageTransitions(){
     //section active class
     allSections.addEventListener('click', (e) => {
         const id = e.target.dataset.id;
-        if (id){
+        if(id){
             //remove 
             sectBtns.forEach((btn) =>{
                 // console.log(e.target)
                 btn.classList.remove('active')
             })
             e.target.classList.add('active')
-            sections.forEach((sections) => {
-                sections.classList.remove('active')
+            sections.forEach((section) => {
+                section.classList.remove('active')
             })
 
             const element = document.getElementById(id);
-            element.classList.add('active')
+            element.classList.add('active');
 
         }
         
