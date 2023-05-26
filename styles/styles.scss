@@ -59,3 +59,36 @@ section {
     transition: all .4s ease-in-out;
     background-color: var(--color-primary);
 }
+
+.sec1 {
+    display: none;
+    transform: translatorY(0) scale(1);
+    background-color: purple;
+
+}
+
+.sec2 {
+    display: none;
+    transform: translatorY(0) scale(1);
+    background-color: cyan;
+}
+.sec3 {
+    display: none;
+    transform: translatorY(0) scale(1);
+    background-color: greenyellow
+    
+}
+
+.sec4 {
+    display: none;
+    transform: translatorY(0) scale(1);
+    background-color: mediumblue;
+    
+}
+
+.sec5 {
+    display: none;
+    transform: translatorY(0) scale(1);
+    background-color: mediumvioletred;
+    
+}
