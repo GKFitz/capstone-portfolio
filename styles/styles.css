@@ -143,7 +143,6 @@ section {
   color: var(--color-white);
 }
 
-/*Header-content*/
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -194,7 +193,7 @@ section {
   font-size: 3rem;
 }
 .header-content .right-header .name span {
-  color: var(--color-secondary);
+  color: var(--color-white);
 }
 .header-content .right-header p {
   margin: 1.5rem 0;
@@ -312,4 +311,21 @@ section {
   font-size: 1.5rem;
   color: var(--color-white);
   margin: 0 1rem;
+}
+
+.right-header {
+  grid-row: 1;
+  padding-right: 0rem !important;
+  width: 90%;
+  margin: 0 auto;
+}
+.right-header .name {
+  font-size: 2.5rem !important;
+  text-align: center;
+  padding-top: 25rem;
+}
+
+.header-content .left-header .image {
+  margin: 0 auto;
+  width: 90%;
 }/*# sourceMappingURL=styles.css.map */
