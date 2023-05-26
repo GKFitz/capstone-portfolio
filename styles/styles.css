@@ -288,4 +288,16 @@ section {
 .portfolios .portfolio_item .hover-item h3 {
   font-size: 1.5rem;
   color: var(--color-white);
+  margin-bottom: 1.5rem;
+}
+.portfolios .portfolio_item .hover-item .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolios .portfolio_item .hover-item .icons .icon {
+  background-color: var(--col-primary);
+  border-radius: 50%;
+  width: 50Px;
+  height: 50px;
 }/*# sourceMappingURL=styles.css.map */

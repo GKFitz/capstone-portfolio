@@ -299,7 +299,19 @@ section {
             h3{
                 font-size: 1.5rem;
                 color: var(--color-white);
-                
+                margin-bottom: 1.5rem;
+            }
+            .icons{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .icon{
+                    background-color: var(--col-primary);
+                    border-radius: 50%;
+                    width: 50Px;
+                    height: 50px;
+                    
+                }
 
             }
 
